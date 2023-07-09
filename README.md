@@ -42,7 +42,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 Assessment Task for frontend development.
 
 ## Demo link:
-Access my site at [[recruitifie-frontend](https://recruitifie-frontend.netlify.app/)
+Access my site at [recruitifie-frontend](https://recruitifie-frontend.netlify.app/)
 
 ## Table of Content:
 
