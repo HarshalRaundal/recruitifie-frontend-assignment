@@ -1,0 +1,110 @@
+
+.dummy-root {
+    position: relative;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    z-index: -50000;
+}
+
+.union {
+    position: absolute;
+    top: 65vh;
+    left: -15vw;
+    width: 250vh;
+    height: 55vh;
+    transform: rotate(38deg);
+}
+
+
+/* egg -elipse */
+h2,
+h1 {
+    font: 15px Arial, Sanserif, bold;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    color: #333;
+    text-align: center;
+}
+
+.boxy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 30%;
+    margin: 0 3%;
+    padding: 0 1%;
+    box-sizing: border-box;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.box {
+    background: #F4FAFE;
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 50% / 60% 60% 40% 40%;
+    border-radius: 50% / 60% 60% 40% 40%;
+    transform: rotate(100deg);
+    /* border: 2px solid black; */
+}
+
+
+.wrap {
+    position: absolute;
+    left: 38%;
+    top: -80%;
+    width: 500px;
+    height: 260%;
+    transform: rotate(90deg);
+    overflow: hidden;
+
+}
+
+.object {
+    height: 100%;
+    width: 100%;
+    background: #F4FAFE;
+}
+
+
+
+.object:before,
+.object:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    border-radius: 60%;
+}
+
+.object:before {
+    left: -51%;
+    top: -5%;
+    transform: rotate(-1deg);
+    height: 110%;
+    width: 90%;
+    border-right: 1px solid #F4FAFE;
+}
+
+
+.object:after {
+    right: -18%;
+    top: -6%;
+    transform: rotate(.7deg);
+    height: 110%;
+    width: 50%;
+    border-left: 1px solid #F4FAFE;
+}
+
+/* Styles for desktop sites */
+@media screen and (max-width: 1023px) {
+    /* Hide elements for non-desktop sites */
+    .dummy-root {
+      display: none;
+    }
+  }

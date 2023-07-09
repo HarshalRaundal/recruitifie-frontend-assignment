@@ -1,0 +1,25 @@
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.main-page{
+    min-height: 91vh;
+    /* border:black solid 2px; */
+    margin: 4vh 6vw ;
+}
+
+/* .circle-bar{
+    border: 2px solid black;
+    width: 485.39310124069993px;
+    height: 400.0000287061784px;
+    top: -42.8134765625px;
+    left: 254.517578125px;
+    transform: rotate(40.15deg);
+
+} */
+
+canvas{
+    border: 2px solid black;
+}
